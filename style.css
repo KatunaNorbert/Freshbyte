@@ -1,0 +1,475 @@
+body{
+    font-family: Muli;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a{
+    color: #20ADD0;
+    font-weight: 800;
+}
+
+/* Style for the header menu */
+.main-menu a::after{
+    content: "-";
+    color: #20ADD0;
+    padding-left: 5px;
+}
+
+.main-menu li{
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu a:hover{
+    opacity: 0.5;
+}
+
+.container{
+    max-width: 1200px !important;
+}
+
+.navbar-brand:hover{
+    opacity: 0.8;
+}
+
+.main-menu a{
+    color: #ffffff;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.get-in-touch{
+    padding: 15px 28px;
+    border: #20ADD0 1px solid;
+    color: #20ADD0 !important;
+}
+
+.get-in-touch:after{
+    content: "";
+}
+
+/* Editing the sandwich button*/
+.main-menu .navbar-toggler{
+    border: 1px solid white;
+    margin-left: auto;
+    position: absolute;
+    top: -40px;
+    right: 18px;
+}
+
+.main-menu .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Style for Reasons section */
+.reason{
+    display: inline-block;
+    padding: 67px  0 0 120px;
+    max-width: 360px;
+}
+
+.reasons{
+    padding-bottom: 100px;
+}
+
+.reasons h2{
+  margin-right:65px;
+  padding-top: 100px;
+  line-height: 50px;
+}
+
+.elements-position{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet:before{
+    content: url("images/wallet.png");
+    box-shadow: 3px 5px 15px  rgba(121, 105, 230, 0.16);
+
+}
+
+.safe::before {
+    content: url("images/safe.png");
+    box-shadow: 3px 5px 15px rgba(230, 129, 41, 0.16);
+}
+
+.cards::before{
+    content: url("images/cards.png");
+    box-shadow: 3px 5px 15px  rgba(6, 180, 253, 0.16);
+}
+
+.coins::before{
+    content: url("images/coins.png");
+    box-shadow: 3px 5px 15px  rgba(249, 93, 94, 0.16);
+}
+
+.reason::before{
+    position: relative;
+    right: 115px;
+    top: 80px;
+    padding: 35px 20px 20px 20px;
+    border-radius: 100%;
+}
+
+/*Our philosophy section*/
+.our-philosophy a{
+    color: #20ADD0;
+    margin-top: 45px;
+}
+
+.btn {
+    margin-top: 25px !important;
+    background-color: #20ADD0;
+    border-radius: unset;
+    padding: 12px 33px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white !important;
+}
+
+.our-philosophy h2{
+    margin: 25px 0;
+}
+
+.square-with-content{
+    background-color: #110F46;
+    position: relative;
+    left: 245px;
+    max-width: 318px;
+    min-height: 286px;
+    padding: 108px 36px 36px 36px;
+    margin-top: 218px;
+    z-index: 2;
+    border: #FFFFFF solid 16px;
+}
+.moto {
+    margin-top: 80px;
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 900;
+}
+.moto-details {
+    position: relative;
+    text-align: left;
+    color: #ABAAE6;
+    font-size: 18px;
+    margin-right: 160px;
+    margin-top: 23px;
+    margin-left: 16px;
+    font-weight: 400;
+}
+
+.moto-details::before {
+    content: "";
+    padding-left: 2px;
+    height: 81%;
+    background-color: #20ADD0;
+    position: absolute;
+    top: 8px;
+    left: -16px;
+}
+
+.btn {
+    margin-top: 44px;
+    border-radius: unset;
+    background-color: #20ADD0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.carousel-indicators {
+    right: 0;
+    bottom: 123px;
+    left: -174px;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: unset;
+    padding-left: 0;
+    margin-top: 65px;
+    list-style: none;
+}
+
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: unset;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    color: #27266C;
+    text-indent: unset;
+    font-weight: 600;
+    background-color: unset;
+}
+
+.carousel-indicators .active {
+    color: #ABAAE6;
+    background-color: unset;
+}
+
+.sponsors-list {
+    margin-top: 75px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    display: flex;
+    -ms-flex-pack: center;
+    padding-left: 0;
+    list-style: none;
+    z-index: 12;
+}
+
+.row.margin {
+    margin-top: 87px;
+}
+
+.manonbook {
+    margin-left: 45px;
+    position: relative;
+    width: 575px;
+    height: 515px;
+}
+.row.sponsors{
+    position: relative;
+    top: 0;
+    left: 15px;
+}
+
+.elipse {
+    margin-top: -100px;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.square-with-content p{
+    color: #ABAAE6;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.coins-special{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.price{
+    color: #20ADD0;
+    font-size: 41px;
+    font-weight: 400;
+}
+
+.coins-special::before{
+    content: url("images/CoinsSpecialLogo.png");
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 12px 16px 5px 16px;
+    border-radius: 100%;
+    position: absolute;
+    top: 32px;
+    left: 35px;
+}
+
+.our-philosophy img{
+    position: absolute;
+    left: -83px;
+}
+
+.philosophy{
+    padding-top: 46px;
+}
+
+/* Changes for tablets and phones*/
+
+
+
+
+
+.ellipse {
+    position: absolute;
+    top: -144px;
+    left: 70%;
+}
+
+.sponsors-list li {
+    padding-right: 128px;
+    cursor: pointer;
+}
+
+
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.carousel-control-next {
+    position: absolute;
+    right: 57px;
+    z-index: 11;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    right: 57px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("images/leftcarouselarrow.png");
+    width: 19px;
+    height: 15px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("images/rightcarouselarrow.png");
+    width: 19px;
+    height: 15px;
+}
+
+.carousel div .row div .col-lg-6 {
+    position: relative;
+}
+
+
+
+.container-fluid.main-bg-color {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a2870+0,110d42+100 */
+    background: #2a2870; /* Old browsers */
+    background: -moz-linear-gradient(top, #2a2870 0%, #110d42 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2a2870 0%, #110d42 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2a2870 0%, #110d42 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a2870', endColorstr='#110d42', GradientType=0); /* IE6-9 */
+}
+
+.container-fluid.homepage-slider::after {
+    content: url("images/backgroundheaderRIGHTellipse.png");
+    position: absolute;
+    top: -17%;
+    right: -20%;
+}
+
+.container-fluid.homepage-slider::before {
+    content: url("images/backgroundheaderBIGellipse.png");
+    position: absolute;
+    top: -4%;
+    left: 8%;
+    width: 100%;
+    align-content: center;
+    z-index: 10;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px
+    }
+}
+@media only screen and (max-width: 992px){
+    /* For tablet,phone: */
+    .main-menu ul{
+        margin-top: 40px;
+    }
+
+    .main-menu ul li{
+        margin-bottom: 20px;
+        margin-left: 0;
+        border: 1px solid #ffffff;
+    }
+
+    .main-menu a{
+        font-size: 18px;
+    }
+
+    .get-in-touch{
+        border: 0px;
+        padding: 8px;
+    }
+
+    /* Reasons section*/
+    .reasons h2{
+        padding-top: 100px;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Our Philosophy section*/
+    .square-with-content{
+        left: 0;
+        right: 0;
+        margin: 300px auto 0 auto;
+    }
+
+    .philosophy{
+        text-align: center;
+    }
+
+    .our-philosophy img{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 540px) {
+    /* For phones */
+    .elements-position{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsors-list {
+        margin-top: 75px;
+        padding-top: 6px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        list-style: none;
+        z-index: 12;
+        text-align: center;
+        width: 100%;
+    }
+
+    .sponsors-list li {
+        padding-bottom: 64px;
+        cursor: pointer;
+        width: 100%;
+        padding-right: unset;
+    }
+
+    .manonbook {
+        width: 100%;
+        height: 100%;
+    }
+
+    .moto-details {
+        width: 100%;
+    }
+
+    .moto {
+        margin-top: 80px;
+        color: #FFFFFF;
+        font-size: 45px;
+        font-weight: 900;
+    }
+    .row.margin {
+        margin-top: unset;
+    }
+}
